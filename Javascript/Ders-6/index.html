@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  
+    <script>
+        // dizi oluştururum;
+        // index numaraları her zaman 0'dan başlar.
+        var fruits = ["Banana","Orange","Apple","Mango"];
+
+        function push(){
+            // sona veri ekler
+            fruits.push("Kivi");
+            console.log(fruits);
+        }
+
+        function pop(){
+            //sondan veri çıkarır
+            fruits.pop();
+            console.log(fruits);
+        }
+
+        function unshift(){
+            // başa veri ekler
+            fruits.unshift("Çilek");
+            console.log(fruits);
+        }
+
+        function shift(){
+            // baştan veri çıkarır
+            fruits.shift();
+            console.log(fruits);
+        }
+
+        function sort(){
+            // A-Z sıralama
+            fruits.sort();
+            console.log(fruits);
+        }
+
+        function reverse(){
+            // Ters çevirme
+            fruits.reverse();
+            console.log(fruits);
+        }
+
+        // Bu şekilde diziler üzerinden işlem yapabiliriz
+
+
+    </script>
+</head>
+
+<body>
+    <h1>Arrays (Diziler)</h1>
+    <hr>
+
+    <button onclick="push()">Push(Veri ekleme-sona)</button>
+    <br><br>
+    <button onclick="pop()">Pop(Veri çıkarma-sondan)</button>
+    <br><br>
+    <button onclick="unshift()">UnShift(Veri ekleme-başa)</button>
+    <br><br>
+    <button onclick="shift()">Shift(Veri çıkarma-baştan)</button>
+    <br><br>
+    <button onclick="sort()">Sort-Sıralama(A-Z)</button>
+    <br><br>
+    <button onclick="reverse()">Reverse-Ters çevirme</button>
+
+    <script>
+
+    </script>
+</body>
+
+</html>
