@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <script>
+
+  </script>
+
+</head>
+
+<body>
+   <h1>Document.Write,Alert ve Console.Log</h1> 
+   <hr>
+
+   <!-- document.write komutunu aşağıdaki gibi sonradan kullanacağımız zaman , ekrana yazdırırken tüm ekranı temizleyip yazdırır. O yüzden bu şekilde çok kullanılmaz. -->
+   <button onclick="document.write('Hello World!')"> 
+    Click me!
+   </button>
+
+   <hr>
+
+   <script>
+    // string (metinsel ifadeler) " "de yazılır.
+    document.write("Hello World");
+    // document.write komutu ; bulunduğu konuma direk kodu yaz demektir.
+
+    console.log("Merhaba Tobeto!"); 
+    // İçerisine her hangi bir şey alabilir.
+    // script içerisinde console.log'u kullandığım zaman ekrana değil konsola yazar.
+
+    // Alert sayfanın yüklenmesini durdurur. Ne zamanki tamama bastık o zaman sayfa yüklenir.
+    // Alertte sadece metinsel şeyleri kontrol edebiliriz.
+    alert("Hello Javascript!");
+    window.alert("Hello JS!");
+
+   </script>
+
+</body>
+
+</html>
