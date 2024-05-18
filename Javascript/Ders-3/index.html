@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <!--yorum satırı-->
+    <script>
+        // yorum satırı
+        // variable 
+        var name = "İclal"; // metin - string
+        var age = 20; // sayı - number
+        var salary = 105.5; // sayı - number
+        var locked = true;  // true/false = boolean 
+
+        var surname; // değer vermediğim için undefined
+        // daha sonrasında burda tanımlarsam artık değeri tanımladığım şey olur.
+        surname = "Cebecioğlu";
+        // Yani değişkeni tanımlayıp daha sonra da değer atamasını yapabiliriz.
+
+        var empty = null; // null ; boş değer 
+
+        var array = ["abc","def","efg"];  // stringDizi - array
+        var array2 = [1,2,3,4,5];  // numberDizi - array
+        var array3 = [1,2,3,"abc","def",true];  // karışıkDizi - array 
+
+        // array'leri güncellerken index numaraları ile güncelleriz.
+        array[0] = "aaa";
+        array[1] = "bbb";
+        array[3] = "ccc";
+
+
+        // Obje(nesne) oluşturmak için {} kullanırım.
+        // Daha sonrada bu ismin altında bu değişkeni tut diye değişkenleri oluştururum.
+        // Obje nesnedir , içindekilerde onun property'leridir (özellikleridir)
+        var obje = {
+            firstName: "İclal",
+            lastName: "Cebecioğlu",
+            age: 20,
+            worked: false,
+            adresses: ["bolu","merkez"],
+            salary: null, // null olabilir , undefined olmaz.
+            // nesne içinde nesne oluşturabilirim 
+            workAdress: {
+                street: "x cad",
+                no: 10,
+                city: "İstanbul",
+                country: "Türkiye"
+            }
+        };
+
+        // objeleri güncellerken ;
+        // Nesne içerisindeki property'leri güncelleme 
+        obje.firstName = "Şevval";
+        obje.workAdress.city = "Antalya";
+
+        /* daha büyük yorum satırı */
+
+    </script>
+
+</head>
+
+<body>
+    <h1>Data Types(Variables),Object ve Comments
+    </h1>
+    <hr>
+    
+</body>
+
+</html>
