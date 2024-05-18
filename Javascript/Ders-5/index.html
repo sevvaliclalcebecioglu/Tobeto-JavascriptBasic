@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <script src="script.js"></script>
+    <!--Burdaki js kodlarını yeni klosörö geçirebilirim-->
+ 
+</head>
+
+<body onload="bodyOnLoad()"> <!--body'nin yüklenmesi bittiği anda sayfaya bir log atar-->
+    <h1>Events ve Functions</h1>
+    <hr>
+
+    <button type="button" onclick="x();">Click me!</button>
+
+    <br> 
+    <hr> <!--Düz yatay çizgi çeker-->
+
+    <!--Gönderdiğim 1 ve 2. parametreyi toplayarak sum butonuna bastığımız zaman ekrana yazdırır-->
+    <button type="button" onclick="sum(1,5);">Topla</button>
+
+    <br>
+    <br> <!--Satır atlar. Ne kadar satır atlamak istersem o kadar br eklerim -->
+
+    <script>
+        // sayfa çalışırken ekrana yazar
+        writeText("Hello Tobeto!")
+    </script>
+    
+</body>
+
+</html>
